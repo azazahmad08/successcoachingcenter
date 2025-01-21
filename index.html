@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>সাকসেস কোচিং সেন্টার</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-orange-600 text-white py-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">সাকসেস কোচিং সেন্টার</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:underline">আমাদের সম্পর্কে</a></li>
+                    <li><a href="#courses" class="hover:underline">কোর্সসমূহ</a></li>
+                    <li><a href="#contact" class="hover:underline">যোগাযোগ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-96" style="background-image: url('https://via.placeholder.com/1920x600');">
+        <div class="h-full bg-black bg-opacity-50 flex items-center justify-center">
+            <div class="text-center text-white">
+                <h2 class="text-4xl font-bold">সাকসেস কোচিং সেন্টার-এর সাথে আপনার ভবিষ্যৎ গড়ুন</h2>
+                <p class="mt-4 text-lg">একাডেমিক সাফল্যের জন্য আপনার নির্ভরযোগ্য সঙ্গী</p>
+                <a href="#courses" class="mt-6 inline-block bg-orange-600 hover:bg-orange-700 text-white py-3 px-6 rounded">কোর্সসমূহ দেখুন</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-4">আমাদের সম্পর্কে</h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                সাকসেস কোচিং সেন্টারে আপনাকে স্বাগতম। আমরা শ্রেণি ৬ থেকে ১২ পর্যন্ত ইংরেজি, গণিত, পদার্থবিজ্ঞান, রসায়ন, জীববিজ্ঞান এবং সাধারণ বিজ্ঞান পড়াই। আধুনিক ও ব্যবহারিক শিক্ষণ পদ্ধতির মাধ্যমে আমরা আপনাদের বোর্ড পরীক্ষায় সফলতার জন্য প্রস্তুত করি।
+            </p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="bg-gray-50 py-12">
+        <div class="container mx-auto">
+            <h3 class="text-2xl font-bold text-center mb-8">আমাদের কোর্সসমূহ</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course Card -->
+                <div class="bg-white shadow-lg rounded-lg p-6 border-t-4 border-orange-500">
+                    <h4 class="text-xl font-bold mb-2">ICT কোর্স</h4>
+                    <p class="text-gray-600">সময়কাল: ৩ মাস</p>
+                    <ul class="mt-4 list-disc list-inside text-gray-700">
+                        <li>সম্পূর্ণ সিলেবাস কাভারেজ</li>
+                        <li>ডিজিটাল বোর্ডে ইন্টারেকটিভ ক্লাস</li>
+                        <li>মক টেস্ট এবং ফাইনাল পরীক্ষা</li>
+                    </ul>
+                </div>
+                <!-- Add more courses as needed -->
+                <div class="bg-white shadow-lg rounded-lg p-6 border-t-4 border-orange-500">
+                    <h4 class="text-xl font-bold mb-2">ইংরেজি কোর্স</h4>
+                    <p class="text-gray-600">শ্রেণি: ৬ থেকে ১২</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 border-t-4 border-orange-500">
+                    <h4 class="text-xl font-bold mb-2">গণিত কোর্স</h4>
+                    <p class="text-gray-600">শ্রেণি: ৬ থেকে ১২</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 border-t-4 border-orange-500">
+                    <h4 class="text-xl font-bold mb-2">পদার্থবিজ্ঞান কোর্স</h4>
+                    <p class="text-gray-600">শ্রেণি: ৯ থেকে ১২</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 border-t-4 border-orange-500">
+                    <h4 class="text-xl font-bold mb-2">রসায়ন কোর্স</h4>
+                    <p class="text-gray-600">শ্রেণি: ৯ থেকে ১২</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 border-t-4 border-orange-500">
+                    <h4 class="text-xl font-bold mb-2">জীববিজ্ঞান কোর্স</h4>
+                    <p class="text-gray-600">শ্রেণি: ৯ থেকে ১২</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h3 class="text-2xl font-bold text-center mb-8">কেন আমাদের নির্বাচন করবেন?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature Card -->
+                <div class="bg-orange-100 p-6 rounded-lg text-center">
+                    <h4 class="text-lg font-bold mb-2">অভিজ্ঞ শিক্ষক</h4>
+                    <p class="text-gray-600">আমাদের শিক্ষকগণ উচ্চ যোগ্যতা সম্পন্ন এবং অভিজ্ঞ।</p>
+                </div>
+                <div class="bg-orange-100 p-6 rounded-lg text-center">
+                    <h4 class="text-lg font-bold mb-2">আধুনিক শিক্ষণ পদ্ধতি</h4>
+                    <p class="text-gray-600">আমরা ডিজিটাল বোর্ড এবং ইন্টারেকটিভ টুল ব্যবহার করি।</p>
+                </div>
+                <div class="bg-orange-100 p-6 rounded-lg text-center">
+                    <h4 class="text-lg font-bold mb-2">সম্পূর্ণ রিসোর্স সরবরাহ</h4>
+                    <p class="text-gray-600">আপনার সফলতার জন্য সকল রিসোর্স এবং সাজেশন দেওয়া হবে।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-6">যোগাযোগ করুন</h3>
+            <p class="text-lg">📍 অবস্থান: ২য় তলা, রোকনউদ্দীন প্লাজা, গোয়ালন্দ বাজার, গোয়ালন্দ, রাজবাড়ী</p>
+            <p class="text-lg">📞 যোগাযোগ: ০১৯৫৪৮৮৯৪৪৫</p>
+            <p class="mt-4">🚀 ভর্তি চলছে! আজই আপনার ভবিষ্যৎ নিশ্চিত করুন।</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-orange-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; ২০২৫ সাকসেস কোচিং সেন্টার। সর্বস্বত্ব সংরক্ষিত।</p>
+        </div>
+    </footer>
 </body>
 </html>
